@@ -1,0 +1,46 @@
+.opinions
+  padding-bottom: 75px
+  @media screen and (max-width: 768px)
+    padding: 40px 20px
+  &__title
+    font-size: 30px
+    font-weight: 700
+    margin-bottom: 0
+    text-transform: uppercase
+    text-align: center
+  &__wrapper
+  .opinions-item
+    display: flex
+    align-items: flex-start
+    margin-top: 100px
+    @media screen and (max-width: 768px)
+      margin-top: 40px
+      flex-direction: column
+      align-items: center
+      &::after
+        margin-top: 40px
+        content: ''
+        border-bottom: 1px solid grey
+        width: 100%
+    &__img
+      display: block
+    &__description
+      margin-left: 65px
+      max-width: 600px
+      @media screen and (max-width: 768px)
+        margin-left: 0
+        margin-top: 40px
+      h4
+        font-size: 18px
+        font-weight: 700
+        margin-bottom: 0
+      span
+        margin-top: 15px
+        font-size: 14px
+        font-weight: 500
+        color: #646464
+      P
+        margin-top: 23px
+        margin-bottom: 0
+        font-size: 16px
+        font-weight: 500
